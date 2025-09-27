@@ -30,7 +30,7 @@ const ImageCard = ({ card }) => {
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ease-out">
       {/* Image Carousel */}
-      <div className="relative w-full h-58">
+      <div className="relative w-full h-vh">
         <img
           src={card.images[currentIndex]}
           alt={card.title}

@@ -6,6 +6,7 @@ import Cards from './components/Cards'
 import ContactForm from './components/Contactform'
 import Footer from './components/Footer'
 
+console.log("me");
 
 function App() {
   const [count, setCount] = useState(0)
